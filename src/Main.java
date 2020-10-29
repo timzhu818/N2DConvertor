@@ -19,8 +19,7 @@ public class Main {
         DFA dfa = new DFA(nfa.getMate(),nfa.getLetter());
         dfa.createDFA();
         dfa.printDFA();
-
-
+        
         System.out.println();
         System.out.println("re:" + re);
         System.out.println("To quit enter Q");
